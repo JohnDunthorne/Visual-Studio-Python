@@ -1,1 +1,2 @@
-print("Hello_github")
+X = 1
+print(X)
