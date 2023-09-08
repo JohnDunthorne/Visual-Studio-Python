@@ -16,3 +16,4 @@ student_enrolled = True
 print(
     f"{student_name} is {student_age} years old, they weigh {student_weight} lbs and their enrollment status is currently {student_enrolled}"
 )
+# this is a way to use f strings to easily include multiple variables in a string
