@@ -17,3 +17,5 @@ print(course_name[0:])
 # leaving the second field empty will return everything past the first index
 print(course_name[3:])
 # this will return everything from index 3 to the end
+print(course_name[:-3])
+# this will return eveything from the beginning to 3 from the end
