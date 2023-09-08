@@ -22,3 +22,12 @@ print(name3.rstrip())  # Removes white space formt he right of the string
 
 print(name3.find("dun"))
 # this will reurn an index number from where the characters i put here start, so "dun" starts at index 9, this is case sensitive
+
+print(name3.replace("j", "r"))
+# this will replace the first letter type with the second letter typed
+
+print("john" in name3)
+# this returns a boolean as to whether or not the text type here is contained within the variable typed after, i.e. is "john" in the name3 variable
+
+print("john" not in name3)
+# this is like the above only is asking if this text is NOT in the variable
