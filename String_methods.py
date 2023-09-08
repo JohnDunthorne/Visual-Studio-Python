@@ -19,3 +19,6 @@ print(name3)
 print(name3.strip())  # removes white space from the beginning and end of the string
 print(name3.lstrip())  # removes white space from the left of the string
 print(name3.rstrip())  # Removes white space formt he right of the string
+
+print(name3.find("dun"))
+# this will reurn an index number from where the characters i put here start, so "dun" starts at index 9, this is case sensitive
