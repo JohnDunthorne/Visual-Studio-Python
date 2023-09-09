@@ -18,7 +18,20 @@ b = 2 - 1  # subtraction
 c = 3 * 3  # multiplication
 d = 16 / 2  # division
 e = 16 // 2  # double slash will return an integer automatically
-
-print(f"{a} {b} {c} {int(d)}")
+f = 10 % 3  # this is modulous (the remainer of a division)
+g = 10**3  # this is an exponant in this case 10 to the power of 3
+# fmt: off
+print(f"this is addition {a} \nthis is subtration {b} \nthis is multiplication {c} \nthis is division {int(d)}")
+# fmt: on
 # i wrote int(d) so the number gets represented by an integer rather than a float
-print(e)
+print(f"this is division with double slash to return an integer not float {e}")
+print(f"this is modulous, meaning the remainer after a division {f}")
+print(f"this is an exponant {g}")
+
+# augmented assignment operators look like this
+# instead of writing
+x = x + 3
+# to add 3 to the value of x
+# we can write
+x += 3
+# this will do the same thing
