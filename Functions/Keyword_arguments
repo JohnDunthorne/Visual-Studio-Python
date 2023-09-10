@@ -1,0 +1,11 @@
+def increment(number, by):
+    return number + by
+
+
+result = increment(2, 1)
+print(result)
+
+# since we only use the 'result' variable once, theres no point in having it
+
+print(increment(2, 1))
+# this is much cleaner if we are only calling this once
