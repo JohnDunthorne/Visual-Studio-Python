@@ -24,3 +24,6 @@ print(multiply(2, 3, 4, 5))
 # the loop will continue and take new total (2) and multiply bu the next number (3) and so on
 # once all numbers are addressed the function will return total, so when we print(multiply(x, x, x, x))
 # it returns total
+
+print(multiply(2, 5))
+print(multiply(3, 4, 5, 6))
