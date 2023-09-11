@@ -31,3 +31,7 @@ print(letters)
 letters = ["a", "b", "c", "d", "e", "f"]
 del letters[0:3]
 print(letters)
+
+# clear deletes all items in a list
+letters.clear()
+print(letters)
