@@ -26,3 +26,12 @@ print(letters)
 
 # remove (use this to type the name of a specific item in the list, it will remove the first occurance of it)
 letters.remove("c")
+print(letters)
+
+# del can be used to delete an item by index, or a range of items:
+del letters[1]
+print(letters)
+
+letters = ["a", "b", "c", "d", "e", "f"]
+del letters[0:3]
+print(letters)
