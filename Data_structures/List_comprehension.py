@@ -24,3 +24,13 @@ newitems2 = [item[1] for item in items2]
 print(newitems2)
 
 # as you can see the list comprehension can just run the for loop in one line
+
+price_30_or_above = list(filter(lambda item: item[1] >= 30, items2))
+print(price_30_or_above)
+
+# we can filter with list comprehension as well
+
+filtered = [item for item in items2 if item[1] >= 30]
+print(filtered)
+
+# this does the exact same as the filter function
