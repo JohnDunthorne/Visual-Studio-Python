@@ -18,3 +18,14 @@ values = [number * 2 for number in range(5)]
 print(values)
 
 # this will return an identical list to that of above
+
+values = {number * 2 for number in range(5)}
+print(values)
+# ^ with curly braces we can make this a set vs a list
+
+# dictionaries and sets differ, as sets are just values
+# but dictionaries have key value pairs, they look like this {1: "a", 2: "b" 3: "c"} etc.
+# we can use the above coprehension to use key value pairs in the exact same way
+
+values = {number: number * 2 for number in range(5)}
+print(values)
