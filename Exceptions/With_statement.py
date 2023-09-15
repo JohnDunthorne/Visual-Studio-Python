@@ -1,7 +1,8 @@
 # we will try something different here (from the cleaning up file)
 
 try:
-    file = open("Exceptions.py")
+    with open("Exceptions.py") as file:
+        print("file opened")
     age = int(input("age: "))
     calculation = 10 / age
 except (ValueError, ZeroDivisionError):
