@@ -10,5 +10,3 @@ except (ValueError, ZeroDivisionError):
     print("an exception was thrown")
 else:
     print("no exceptions were thrown")
-finally:
-    file.close()
