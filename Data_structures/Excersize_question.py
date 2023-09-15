@@ -12,3 +12,6 @@ for char in sentence:
         char_frequency[char] = 1
 
 pprint(char_frequency, width=1)  # pprint is a good way to print dictionaries
+
+
+# ***** i dont fully understand this, i will return to it later when i have more context *****
