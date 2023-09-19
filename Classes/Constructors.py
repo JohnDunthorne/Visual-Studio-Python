@@ -6,4 +6,4 @@ class Point:
 point = Point()
 
 
-# this is where i switched to cs
+# this is where i switched to c
